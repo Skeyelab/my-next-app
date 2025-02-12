@@ -47,8 +47,8 @@ export default function Home() {
             width: 400,
             fontSize: 16,
             starterPrompts: [
-                "How can you help me?"
-              "What resources are available for research?",
+              "How can you help me?",
+              "What resources are available for research?"
             ]
           },
           botMessage: {

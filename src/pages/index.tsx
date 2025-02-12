@@ -1,4 +1,5 @@
 import localFont from "next/font/local";
+import { BubbleChat } from 'flowise-embed-react'
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -18,7 +19,12 @@ export default function Home() {
     >
       <main>
         <h1>welcome</h1>
+        <BubbleChat
+            chatflowid="16e60cc4-38e8-43bd-bb4e-6361ebf72d77"
+            apiHost="https://flowise.ger.stereorail.com"
+        />
       </main>
     </div>
+
   );
 }

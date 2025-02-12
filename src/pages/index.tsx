@@ -29,10 +29,12 @@ export default function Home() {
         chatflowid="16e60cc4-38e8-43bd-bb4e-6361ebf72d77"
         apiHost="https://flowise.ericdahl.dev"
         theme={{
-          backgroundColor: "#000000",
-          textColor: "#ffffff",
-          buttonColor: "#000000",
-          buttonTextColor: "#ffffff",
+          button: {
+            backgroundColor: "#00843d",
+            textColor: "#ffffff",
+            buttonColor: "#00843d",
+            buttonTextColor: "#ffffff",
+          },
           chatWindow: {
             showTitle: true,
             showAgentMessages: true,
@@ -45,10 +47,49 @@ export default function Home() {
             width: 400,
             fontSize: 16,
             starterPrompts: [
-                "What resources are available for research?",
                 "How can you help me?"
+              "What resources are available for research?",
             ]
+          },
+          botMessage: {
+            backgroundColor: '#f7f8ff',
+            textColor: '#303235',
+            showAvatar: true,
+            avatarSrc: 'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/parroticon.png'
+          },
+          userMessage: {
+            backgroundColor: '#00843d',
+            textColor: '#ffffff',
+            showAvatar: true,
+            avatarSrc: 'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png'
+          },
+          textInput: {
+            placeholder: 'Type your question',
+            backgroundColor: '#ffffff',
+            textColor: '#303235',
+            sendButtonColor: '#00843d',
+            maxChars: 50,
+            maxCharsWarningMessage: 'You exceeded the characters limit. Please input less than 50 characters.',
+            autoFocus: true,
+            sendMessageSound: true,
+            sendSoundLocation: 'send_message.mp3',
+            receiveMessageSound: true,
+            receiveSoundLocation: 'receive_message.mp3'
+          },
+          feedback: {
+            color: '#303235'
+          },
+          dateTimeToggle: {
+            date: true,
+            time: true
+          },
+          footer: {
+            textColor: '#303235',
+            text: 'Powered by',
+            company: 'Flowise',
+            companyLink: 'https://flowiseai.com'
           }
+
         }}
       />
     </div>

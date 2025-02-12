@@ -14,17 +14,19 @@ const geistMono = localFont({
 
 export default function Home() {
   return (
-    <div
-      className={`${geistSans.variable} ${geistMono.variable} min-h-screen flex items-center justify-center font-[family-name:var(--font-geist-sans)]`}
-    >
-      <main>
-        <h1>welcome</h1>
-        <BubbleChat
-            chatflowid="16e60cc4-38e8-43bd-bb4e-6361ebf72d77"
-            apiHost="https://flowise.ger.stereorail.com"
-        />
-      </main>
-    </div>
+    <>
+      <div
+        className={`${geistSans.variable} ${geistMono.variable} min-h-screen flex items-center justify-center font-[family-name:var(--font-geist-sans)]`}
+      >
+        <main>
+          <h1>welcome</h1>
 
+        </main>
+      </div>
+      <BubbleChat
+        chatflowid="16e60cc4-38e8-43bd-bb4e-6361ebf72d77"
+        apiHost="https://flowise.ger.stereorail.com"
+      />
+    </>
   );
 }

@@ -37,7 +37,7 @@ export default function Home() {
           },
           chatWindow: {
             showTitle: true,
-            showAgentMessages: true,
+            showAgentMessages: false,
             title: 'Hesburgh Library Chatbot',
             welcomeMessage: 'Hi. My name is Ted. How can I help you today?',
             errorMessage: 'This is a custom error message',

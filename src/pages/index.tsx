@@ -1,10 +1,10 @@
 import localFont from "next/font/local";
 import dynamic from 'next/dynamic';
 
-const BubbleChat = dynamic(
-  () => import('flowise-embed-react').then((mod) => mod.BubbleChat),
-  { ssr: false }
-);
+// const BubbleChat = dynamic(
+//   () => import('flowise-embed-react').then((mod) => mod.BubbleChat),
+//   { ssr: false }
+// );
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -90,8 +90,8 @@ export default function Home() {
             companyLink: 'https://flowiseai.com'
           }
 
-        }}
-      /> */}
+        }} */}
+      />
     </div>
 
 

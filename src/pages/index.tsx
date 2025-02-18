@@ -1,5 +1,5 @@
 import localFont from "next/font/local";
-import dynamic from 'next/dynamic';
+//import dynamic from 'next/dynamic';
 
 // const BubbleChat = dynamic(
 //   () => import('flowise-embed-react').then((mod) => mod.BubbleChat),
@@ -90,8 +90,8 @@ export default function Home() {
             companyLink: 'https://flowiseai.com'
           }
 
-        }} */}
-      />
+        }}
+      /> */}
     </div>
 
 

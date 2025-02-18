@@ -1,10 +1,10 @@
 import localFont from "next/font/local";
-//import dynamic from 'next/dynamic';
+import dynamic from 'next/dynamic';
 
-// const BubbleChat = dynamic(
-//   () => import('flowise-embed-react').then((mod) => mod.BubbleChat),
-//   { ssr: false }
-// );
+const BubbleChat = dynamic(
+  () => import('flowise-embed-react').then((mod) => mod.BubbleChat),
+  { ssr: false }
+);
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -25,7 +25,7 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center" style={{ width: '75%', height: '100%' }}>
         <h1>This is a demo of a chatbot for the Hesburgh Library. <br /> <br /> It has been trained on the contents of the Hesburgh Library and the Staff Directory.  <br /> <br /> Click the button below to start chatting.</h1>
       </main>
-      {/* <BubbleChat
+      <BubbleChat
         chatflowid="16e60cc4-38e8-43bd-bb4e-6361ebf72d77"
         apiHost="https://flowise.ericdahl.dev"
         theme={{
@@ -91,7 +91,7 @@ export default function Home() {
           }
 
         }}
-      /> */}
+      />
     </div>
 
 

@@ -19,6 +19,7 @@ const geistMono = localFont({
 
 export default function Home() {
   return (
+    <>
     <div
       className={`${geistSans.variable} ${geistMono.variable} min-h-screen flex items-center justify-center font-[family-name:var(--font-geist-sans)]`}
     >
@@ -93,6 +94,8 @@ export default function Home() {
         }}
       />
     </div>
+    <script defer src="https://umami.apps.stereorail.com/script.js" data-website-id="52c5d97a-f47c-4fe9-9d2f-3e3bfa656c50"></script>
+    </>
 
 
   );

@@ -24,7 +24,7 @@ export default function Home() {
       className={`${geistSans.variable} ${geistMono.variable} min-h-screen flex items-center justify-center font-[family-name:var(--font-geist-sans)]`}
     >
       <main>
-        <h1>This is a demo of the Hesburgh Library Chatbot.  Click the button below to start chatting.</h1>
+        <h1>This is a demo of a chatbot for the Hesburgh Library. <br /> <br /> It has been trained on the contents of the Hesburgh Library and the Staff Directory.  <br /> <br /> Click the button below to start chatting.</h1>
       </main>
       <BubbleChat
         chatflowid="16e60cc4-38e8-43bd-bb4e-6361ebf72d77"

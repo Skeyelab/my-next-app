@@ -44,9 +44,9 @@ export default function Home() {
             errorMessage: 'This is a custom error message',
             backgroundColor: '#ffffff',
             backgroundImage: 'enter image path or link',
-            height: 700,
-            width: 400,
-            fontSize: 16,
+            height: 720,
+            width: 450,
+            fontSize: 15,
             starterPrompts: [
               "How can you help me?",
               "What resources are available for research?"

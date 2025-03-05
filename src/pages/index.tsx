@@ -85,10 +85,10 @@ export default function Home() {
             time: true
           },
           footer: {
-            textColor: '#303235',
+            textColor: '#11356b',
             text: 'Powered by',
-            company: 'Flowise',
-            companyLink: 'https://flowiseai.com'
+            company: 'southbend',
+            companyLink: 'https://southbend.tech'
           }
 
         }}

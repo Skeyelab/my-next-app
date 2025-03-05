@@ -37,7 +37,7 @@ export default function Home() {
             buttonTextColor: "#ffffff",
           },
           chatWindow: {
-            showTitle: false,
+            showTitle: true,
             showAgentMessages: false,
             title: 'Custom Chatbot',
             welcomeMessage: 'Hi. My name is Pal. How can I help you today?',
@@ -81,9 +81,9 @@ export default function Home() {
             time: true
           },
           footer: {
-            textColor: '#303235',
+            textColor: '#11356b',
             text: 'Powered by',
-            company: 'southbend.tech',
+            company: 'southbend',
             companyLink: 'https://southbend.tech'
           }
 

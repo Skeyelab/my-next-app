@@ -24,10 +24,10 @@ export default function Home() {
       className={`${geistSans.variable} ${geistMono.variable} min-h-screen flex items-center justify-center font-[family-name:var(--font-geist-sans)]`}
     >
       <main className="flex flex-col items-center justify-center" style={{ width: '75%', height: '100%' }}>
-        <h1>This is a demo of a chatbot for the Hesburgh Library. <br /> <br /> It has been trained on the contents of the Hesburgh Library Website and the Staff Directory.  <br /> <br /> Click the button below to start chatting.</h1>
+        <h1>This is a demo of a chatbot for George. <br /> <br /> It has been trained on the contents of a specific website. <br /> <br /> Click the button below to start chatting.</h1>
       </main>
       <BubbleChat
-        chatflowid="16e60cc4-38e8-43bd-bb4e-6361ebf72d77"
+        chatflowid="f6af6a07-4747-41c7-98cd-5e39a920748b"
         apiHost="https://flowise.ericdahl.dev"
         theme={{
           button: {
@@ -39,18 +39,14 @@ export default function Home() {
           chatWindow: {
             showTitle: true,
             showAgentMessages: false,
-            title: 'Hesburgh Library Chatbot',
-            welcomeMessage: 'Hi. My name is Ted. How can I help you today?',
+            title: 'Custom Chatbot',
+            welcomeMessage: 'Hi. My name is Pal. How can I help you today?',
             errorMessage: 'This is a custom error message',
             backgroundColor: '#ffffff',
             backgroundImage: 'enter image path or link',
             height: 720,
             width: 450,
             fontSize: 15,
-            starterPrompts: [
-              "How can you help me?",
-              "What resources are available for research?"
-            ]
           },
           botMessage: {
             backgroundColor: '#f7f8ff',
